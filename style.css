@@ -1,0 +1,113 @@
+body {
+    font-family: "Space Mono", monospace;
+    background-color: #282A36;
+    color: #F8F8F2;
+    margin: 150px auto;
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+}
+.text-red {
+    color: #FF5555;
+}
+
+.text-orange {
+    color: #ffb86c;
+}
+
+.text-yellow {
+    color: #F1FA8C;
+}
+
+.text-green {
+    color: #50FA7B;
+}
+
+.text-purple {
+    color: #BD93F9;
+}
+
+.text-cyan {
+    color: #8BE9FD;
+}
+
+.text-pink {
+    color: #FF79C6;
+}
+
+.header a {
+    display: flex;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navmenu a {
+    color: #F8F8F2;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navmenu a:hover {
+    color: #FF5555;
+
+}
+
+.mainbody {
+    flex: 1 0 auto;
+}
+
+.mainbody h1 {
+    font-size: 34px;
+    color: #FF79C6;
+}
+
+.mainbody h2 {
+    font-size: 24px;
+    color: #BD93F9;
+}
+
+.mainbody p {
+    line-height: 1.7;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    flex-shrink: 0;
+    color:#50FA7B
+}
+
+::selection {
+    background-color: #44475A;
+}
+
+
+.spareimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px ;
+}
+
+.spareimages img {
+    width: 300;
+}
+
+.journalpics {
+    color: #ffb86c;
+    text-align: center;
+    font-size: 14px;
+}
+
+.journalpics img {
+    width: 800;
+    color: #ffb86c;
+}
