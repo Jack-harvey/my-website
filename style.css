@@ -101,6 +101,12 @@ html, body {
     width: 300;
 }
 
+.spareimages a {
+    color: #8BE9FD;
+    font-size: 12px;
+    text-decoration: none;
+}
+
 .journalpics {
     color: #ffb86c;
     text-align: center;
