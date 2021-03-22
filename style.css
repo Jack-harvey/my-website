@@ -3,7 +3,7 @@ body {
     background-color: #282A36;
     color: #F8F8F2;
     margin: 150px auto;
-    max-width: 760px;
+    max-width: 765px;
     display: flex;
     flex-direction: column;
 }
@@ -95,16 +95,18 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px ;
+    margin: 0 auto
 }
 
 .spareimages img {
-    width: 300;
+    width: 250;
 }
 
 .spareimages a {
     color: #8BE9FD;
     font-size: 12px;
     text-decoration: none;
+    text-align: center;
 }
 
 .journalpics {
